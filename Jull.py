@@ -5,7 +5,7 @@ import os
 import sys
 
 os.system('clear')
-	print"\033[1;97mSilahkan login SC nya dulu bosque\n\tKalo Ga tau Subscribe dulu Chanel Cyber Limit\n\twa (089614686780)"
+
 	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
 	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
 	if username =="wisnu" and password =="cyberlimit":
