@@ -20,11 +20,11 @@ echo "BERHASIL"
 clear
 figlet CyberLimit
 echo ""
-  echo   -e "\e[1;31m✓===============================>
-  echo   -e "\e[1;34m|     Autor : Cyber Limit       >
-  echo   "|    My tim : Wisnu | panjul      |"
-  echo   "|   youtube : Cyber Limit         |"
-  echo   -e "\e[1;31m✓===============================>
+  echo   -e "\e[1;31m✓===============================✓"
+  echo   -e "\e[1;34m|     Autor : Cyber Limit       |"
+  echo   "|    My tim : Wisnu | panjul               |"
+  echo   "|   youtube : Cyber Limit                  |"
+  echo   -e "\e[1;31m✓===============================✓"
   echo ""
 echo -e "\e[1;34mNote : Hargai Yang Membuat Tools!!"
 echo ""
