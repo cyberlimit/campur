@@ -4,15 +4,27 @@
 import os
 import sys
 
-time.sleep(1)
 os.system('clear')
-print "MASUKIN NAMA KAMU : "
-raw_input Nama :
-time.sleep(1)
-print "PASSWORD TOOLS : "
-raw_password :limit
-print "BERHASIL"
-'clear'
+	print"\033[1;97mSilahkan login SC nya dulu bosque\n\tKalo Ga tau Subscribe dulu Chanel Cyber Limit\n\twa (089614686780)"
+	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
+	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
+	if username =="wisnu" and password =="cyberlimit":
+		print"\033[1;96m[✓] \033[1;92mLogin success"
+		time.sleep(1)
+		login()
+	else:
+		print"\033[1;96m[!] \033[1;91mSalah!!"
+		time.sleep(1)
+                LoginSC()
+
+def login():
+	os.system('clear')
+	try:
+		toket = open('login.txt','r')
+		menu() 
+	except (KeyError,IOError):
+		os.system('clear')
+
 figlet CyberLimit
 print ""
   print "✓===============================✓"
