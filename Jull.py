@@ -4,11 +4,11 @@
 import os
 import sys
 
-sleep 1
+time.sleep(1)
 os.system('clear')
 print "MASUKIN NAMA KAMU : "
 raw_input Nama :
-sleep 2
+time.sleep(1)
 print "PASSWORD TOOLS : "
 raw_password :limit
 print "BERHASIL"
@@ -26,24 +26,24 @@ print
         print "[+]PILIH YANG ADA AJA TAIK"
 print ""
 print "1.>CEK IP "
-sleep 1
+time.sleep(1)
 print "2.>Hack Fb mbf "
-slepp 1
+time.sleep(1)
 print "Pilih : "
 raw_input Pilih :
 if pilih "1" :
         os.system('git clone https://github.com/Bl4ckDr460n/My-Ip')
         print "[+]penginstallan selesai"
-        sleep 1
+        time.sleep(1)
         print "ketik : cd My-Ip"
-        sleep 1
+        time.sleep(1)
         print "Lanjut ketik : python2 My-Ip.py"
 elif pilih "2" 
        os.system('git clone https:github.com/cyberlimit/darkcyber')
        print "[+]pengisntallan selesai"
-       sleep 1
+       time.sleep(1)
        print "ketik : cd darkcyber"
-       sleep 1
+       time.sleep(1)
        print "Lanjut ketik : python2 Limit.py"
 
        
