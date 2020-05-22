@@ -6,7 +6,7 @@ import sys
 time.sleep(1)
 os.system('clear')
 
-figlet CyberLimit
+figlet ('CyberLimit')
 print ""
   print "✓===============================✓"
   print "|     Autor : Cyber Limit       |"
