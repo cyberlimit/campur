@@ -3,27 +3,8 @@
 #recode mati ema lu
 import os
 import sys
-
+time.sleep(1)
 os.system('clear')
-
-	username = raw_input("\033[1;96m[*] \033[1;97mUsername \033[1;91m: \033[1;92m")
-	password = raw_input("\033[1;96m[*] \033[1;97mPassword \033[1;91m: \033[1;92m")
-	if username =="wisnu" and password =="cyberlimit":
-		print"\033[1;96m[✓] \033[1;92mLogin success"
-		time.sleep(1)
-		login()
-	else:
-		print"\033[1;96m[!] \033[1;91mSalah!!"
-		time.sleep(1)
-                LoginSC()
-
-def login():
-	os.system('clear')
-	try:
-		toket = open('login.txt','r')
-		menu() 
-	except (KeyError,IOError):
-		os.system('clear')
 
 figlet CyberLimit
 print ""
